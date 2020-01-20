@@ -1,4 +1,4 @@
-import calculator
+from string_calculator.calculator import add
 import pytest
 
 # Testing for each condition in add

@@ -9,7 +9,7 @@ def test_add():
     assert calculator.add("1,1") == 2
 
     #testing condition 2
-    assert calculator.add("1,2,3,4") == 10
+    assert calculator.add("1,2,3,4") == 6 # The reason this is equal to 6 is because 4 is a delimiter (condition 4), hence it is ignored
     assert calculator.add("") == 0
     assert calculator.add("1") == 1
     assert calculator.add("1,1") == 2

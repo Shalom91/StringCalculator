@@ -1,7 +1,6 @@
-# load modules
+
 import re
 
-# define the function
 def add(text): 
     # split items and find integers: pattern, num_list
     pattern = re.split("4|\n|a-z|777", text)
@@ -16,10 +15,10 @@ def add(text):
 
     # add items in a list
     for i in num_list:
-        if i < 0: # ---- negative numbers
+        if i < 0: 
             # use map() to convert each item in the list to a string, and then join them
             raise Exception("ERROR: Negatives not allowed " + ",".join(map(str, [i for i in num_list if i < 0])))
-        elif i >= 1000: # ---- numbers equal to or greater than 1000
+        elif i >= 1000: 
             pass
         else:
             addition += i

@@ -24,7 +24,7 @@ def add(text):
         else:
             addition += i
     return addition
-print(add("-1,-2,3,4"))
+
 
 
 

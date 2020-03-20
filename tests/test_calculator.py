@@ -1,5 +1,8 @@
-from calculator import add
+import os
 import pytest
+import sys
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../string_calculator/')))
+import calculator
 
 def test_add():
     

@@ -1,2 +1,5 @@
 string_calculator/__pycache__
 string_calculator/.pytest_cache
+strEnv/
+.vscode/
+tests/__pycache__/
